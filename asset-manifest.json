@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/quote-generator/static/css/main.f80e4bed.css",
+    "main.js": "/quote-generator/static/js/main.d74e01e4.js",
+    "static/media/fa-solid-900.ttf": "/quote-generator/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
+    "static/media/fa-brands-400.ttf": "/quote-generator/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
+    "static/media/fa-solid-900.woff2": "/quote-generator/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
+    "static/media/fa-brands-400.woff2": "/quote-generator/static/media/fa-brands-400.fdbb558523a380307689.woff2",
+    "static/media/fa-regular-400.ttf": "/quote-generator/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
+    "static/media/fa-regular-400.woff2": "/quote-generator/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
+    "static/media/fa-v4compatibility.ttf": "/quote-generator/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
+    "static/media/fa-v4compatibility.woff2": "/quote-generator/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
+    "index.html": "/quote-generator/index.html",
+    "main.f80e4bed.css.map": "/quote-generator/static/css/main.f80e4bed.css.map",
+    "main.d74e01e4.js.map": "/quote-generator/static/js/main.d74e01e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f80e4bed.css",
+    "static/js/main.d74e01e4.js"
+  ]
+}
