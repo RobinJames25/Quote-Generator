@@ -1,5 +1,4 @@
 import * as React from "react"
-import ReactDOM from "react-dom"
 import Wrapper from "./Components/Wrapper"
 
 const App = () => {
@@ -9,8 +8,4 @@ const App = () => {
     </div>
   )
 }
-
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<App />)
-
 export default App
