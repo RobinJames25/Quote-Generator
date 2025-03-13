@@ -1,0 +1,110 @@
+body {
+  font-family: "RocknRoll One", serif;
+  font-size: 15px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  margin: 0; 
+}
+
+.wrapper {
+  background-color: antiquewhite !important;
+  width: 450px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 3px;
+  transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+#text, #author {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.quote-icon {
+  margin-right: 10px;
+}
+
+.quote-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+}
+
+.h1-1 {
+  font-weight: 500;
+  font-size: 1.75em;
+  margin: auto;
+}
+
+#author {
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#tweet-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#tweet-quote:hover {
+  background-color: rgb(130, 240, 240);
+  transform: scale(1.05);
+}
+
+#new-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.85em;
+}
+
+#new-quote:hover {
+  background-color: rgb(130, 240, 240);
+  transform: scale(1.05);
+}
+
+/* Wrapper transition for fade effect */
+.quote-box {
+  position: relative;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Fade-out effect */
+.fade-out {
+  opacity: 0;
+  transform: scale(0.9); /* Scale down effect */
+}
+
+/* Fade-in effect */
+.fade-in {
+  opacity: 1;
+  transform: scale(1); /* Ensure the quote is at full scale when visible */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    min-height: 90vh;
+  }
+  .wrapper {
+    width: 300px;
+    padding: 10px 40px;
+  }
+}
