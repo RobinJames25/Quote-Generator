@@ -14,7 +14,8 @@ export function Wrapper(){
         setFade(true);
         setTimeout(async () => {
         try {
-            const response = await axios.get("http://localhost:5000/api/quote");
+            const API_URL = "https://quote-generator-backend.vercel.app/api/quote";
+            const response = await axios.get(API_URL);
             setQuote(response.data.body);
             setAuthor(response.data.author);
 
